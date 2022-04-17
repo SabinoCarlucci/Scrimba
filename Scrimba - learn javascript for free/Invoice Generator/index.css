@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.heading{
+    text-align: center;
+    padding: 10px 80px;
+    margin: 50px auto;
+    border: 2px solid black;
+}
+
+h1{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: red 1px solid;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    border: green 1px solid;
+}
+
+.taskTotal {
+    display: flex;
+    justify-content: space-between;
+    border: blue 1px solid; 
+}
+
+.serviziEPrezzi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.separator {
+    background-color: grey;
+    max-width: 500px;
+    align-self: center;
+    height: 1px;
+    margin: 20px auto;
+}
+
+.notesTotalAmount {
+    display: flex;
+    justify-content: space-between;
+    border: brown 1px solid;
+}
+
+.totalNotes {
+    display: flex;
+    justify-content: space-between;
+}
+
+#send-btn {
+    background-color: blue;
+    color: white;
+    align-self: center;
+    border-radius: 7px;
+    border: 0px;
+    height: 40px;
+    width: 400px;
+}
+
+.deleteMe{
+    float: right;
+    padding-left: 10px;
+    font-size: x-small;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
